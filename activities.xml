@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE activities [
+  <!ELEMENT activities (activity*)>
+  <!ELEMENT activity (name, description, duration, price)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT description (#PCDATA)>
+  <!ELEMENT duration (#PCDATA)>
+  <!ELEMENT price (#PCDATA)>
+]>
 <activities>
     <activity>
         <name>Guided Tour of the Station</name>
